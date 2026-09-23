@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>隐私政策 · 谛听 Diting</title>
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead"><a class="brand" href="../">谛听 <span>Diting</span></a><a class="back" href="../support/">支持 / Support →</a></header>
+    <section class="intro compact"><p class="eyebrow">PRIVACY POLICY</p><h1>隐私政策</h1><p>生效日期：2026年9月23日</p><nav class="language" aria-label="语言"><a href="#zh">简体中文</a><a href="#en">English</a></nav></section>
+    <article id="zh" class="policy" lang="zh-Hans">
+      <p>谛听仅在你主动发起捕获时处理你提供的截图。App 不会在后台监控或自动截取其他 App 的内容。</p>
+      <h2>处理的数据</h2>
+      <ul>
+        <li>截图先在设备上通过 Apple Vision 执行文字识别。</li>
+        <li>为生成日程、提醒事项或笔记建议，必要的 OCR 文本、当前时间和时区会通过 HTTPS 发送至阿里云百炼 <code>qwen3.7-flash</code>。截图像素不会发送给该 AI 服务。</li>
+        <li>OCR 文本来自你主动选择捕获的屏幕，可能包含你提交的姓名、联系方式或其他个人信息；谛听不会在发送前对任意 OCR 文本作身份信息脱敏。</li>
+        <li>日历和提醒事项仅在你确认后通过 Apple EventKit 写入；系统权限可随时在 iOS 设置中管理。</li>
+        <li>谛听笔记、捕获历史、设置、识别次数余额及符合条件的压缩证据截图保存在设备本地。</li>
+        <li>原始 OCR 文本、Prompt、原始 AI 响应和 Authorization Header 不由 App 持久保存。</li>
+      </ul>
+      <p>阿里云百炼服务条款说明，对话数据会在提供服务所必需的最短时间内保留，并可能因法律要求及备份等情形继续保存；公开资料未说明本工作空间适用的具体数值期限，因此谛听不承诺零留存或固定删除时限。当前生产工作空间位于华北2（北京）。账号所有者确认：默认审计日志记录请求 ID、时间、模型、Token 用量、状态码等调用元数据，不包含 Prompt/Response；完整 Prompt/Response 推理日志需要额外授权并配置 SLS/Logstore，而当前工作空间尚未完成该配置，因此未启用此类完整内容日志。阿里云仍按其服务条款和隐私说明处理服务请求数据。请参阅阿里云百炼现行<a href="https://help.aliyun.com/zh/model-studio/privacy-notice" rel="noopener noreferrer">隐私说明</a>、<a href="https://help.aliyun.com/zh/model-studio/model-telemetry" rel="noopener noreferrer">监控与日志说明</a>及<a href="https://terms.alicdn.com/legal-agreement/terms/common_platform_service/20230728213935489/20230728213935489.html" rel="noopener noreferrer">服务协议</a>。</p>
+      <p>通过 HTTPS 建立连接时，服务网络基础设施会收到建立和维护连接所需的网络信息（例如来源 IP）。谛听不会把 IP 地址作为应用请求正文中的字段发送；阿里云是否以及如何记录或保留连接层信息，应以其适用的实际服务处理和完整日志配置为准。我们不承诺零记录或固定期限。</p>
+      <h2>购买与识别次数</h2>
+      <p>付款由 Apple App Store / StoreKit 处理，谛听不接收完整付款信息。识别次数余额和已处理交易标识保存在设备本地，用于防止同一笔已验证交易重复入账。消耗型识别次数在删除或重新安装 App 后可能无法恢复。</p>
+      <h2>追踪与账号</h2>
+      <p>谛听 1.0 不提供谛听账号，不使用广告标识符，不投放广告，也不跨 App 或网站追踪用户。</p>
+      <h2>你的控制</h2>
+      <p>你可以删除谛听笔记和捕获历史，并在 iOS 设置中撤销日历、提醒事项或照片访问权限。删除 App 会按照 iOS 的规则移除其本地沙盒数据。</p>
+      <h2>联系我们</h2>
+      <p>隐私问题请联系：<a href="mailto:malianglai@gmail.com">malianglai@gmail.com</a></p>
+    </article>
+    <article id="en" class="policy english" lang="en">
+      <p>Diting processes a screenshot only when you initiate a capture. It does not monitor or automatically capture content from other apps in the background.</p>
+      <h2>Data processing</h2>
+      <ul>
+        <li>Apple Vision performs text recognition on the device first.</li>
+        <li>To suggest Calendar events, Reminders, or notes, necessary OCR text, current time, and time-zone context are sent over HTTPS to Alibaba Cloud Model Studio <code>qwen3.7-flash</code>. Screenshot pixels are not sent to the AI service.</li>
+        <li>OCR text comes from a screen you chose to capture and may contain names, contact details, or other personal information. Diting does not redact arbitrary OCR text for identity information before transmission.</li>
+        <li>Calendar and Reminder records are written through Apple EventKit only after you confirm. You can manage these permissions in iOS Settings.</li>
+        <li>Diting notes, capture history, settings, recognition-credit balance, and eligible compressed evidence screenshots are stored locally on the device.</li>
+        <li>The app does not persist raw OCR text, prompts, raw AI responses, or authorization headers.</li>
+      </ul>
+      <p>Alibaba Cloud's Model Studio terms state that conversation data is retained for the shortest time necessary to provide the service and may also be stored where required by law or in backups. Public materials reviewed do not state a numeric retention period for this workspace, so Diting does not promise zero retention or a fixed deletion deadline. The current production workspace is in North China 2 (Beijing). The account owner confirms that default audit logs contain request metadata such as request ID, time, model, token usage, and status code, but not Prompt/Response. Full Prompt/Response inference logging requires additional authorization and SLS/Logstore configuration; this is not enabled for the current workspace. Alibaba Cloud still processes service request data under its service terms and privacy notice. See Alibaba Cloud's <a href="https://help.aliyun.com/zh/model-studio/privacy-notice" rel="noopener noreferrer">Privacy Notice</a>, <a href="https://help.aliyun.com/zh/model-studio/model-telemetry" rel="noopener noreferrer">Monitoring and Logs documentation</a>, and <a href="https://terms.alicdn.com/legal-agreement/terms/common_platform_service/20230728213935489/20230728213935489.html" rel="noopener noreferrer">Service Agreement</a>.</p>
+      <p>An HTTPS connection also exposes network information (such as source IP) needed to establish and maintain the connection to service infrastructure. Diting does not put an IP address in the application request body. Whether Alibaba Cloud records or retains connection-level information depends on its applicable service processing and logging configuration. We do not promise zero recording or a fixed retention period.</p>
+      <h2>Purchases and recognition credits</h2>
+      <p>Payments are handled by Apple through the App Store and StoreKit. Diting does not receive complete payment information. The local credit balance and processed transaction identifiers are stored on the device to prevent a verified transaction from being credited twice. Consumable credits may not be recoverable after deleting or reinstalling the app.</p>
+      <h2>Tracking and accounts</h2>
+      <p>Diting 1.0 has no Diting account, does not use advertising identifiers, does not serve ads, and does not track users across apps or websites.</p>
+      <h2>Your controls</h2>
+      <p>You can delete Diting notes and capture history and revoke Calendar, Reminders, or Photos access in iOS Settings. Deleting the app removes its local sandbox data according to iOS behavior.</p>
+      <h2>Contact</h2>
+      <p>Privacy questions: <a href="mailto:malianglai@gmail.com">malianglai@gmail.com</a></p>
+    </article>
+    <footer><a href="../">谛听 · Diting</a><span>Privacy Policy · 2026-09-23</span></footer>
+  </main>
+</body>
+</html>
