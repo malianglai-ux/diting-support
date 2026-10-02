@@ -13,10 +13,11 @@
     <section class="intro compact"><p class="eyebrow">PRIVACY POLICY</p><h1>隐私政策</h1><p>生效日期：2026年9月23日</p><nav class="language" aria-label="语言"><a href="#zh">简体中文</a><a href="#en">English</a></nav></section>
     <article id="zh" class="policy" lang="zh-Hans">
       <p>谛听仅在你主动发起捕获时处理你提供的截图。App 不会在后台监控或自动截取其他 App 的内容。</p>
+      <p>在任何 OCR 文字或相关上下文发送至第三方 AI 服务之前，谛听会说明将发送的数据类型、接收方阿里云百炼（Alibaba Cloud Model Studio / Bailian）及生成日程、提醒事项或笔记建议的处理目的，并取得你的明确同意。你可以选择不同意；未同意或已撤回同意时，谛听不会将 OCR 文字或相关上下文发送至该服务。你可以随时在「设置 → 隐私与数据 → AI 数据处理」撤回或重新给予 AI 数据处理同意。撤回同意不会删除设备上的本地数据，也不会影响与 AI 数据处理无关的系统权限。</p>
       <h2>处理的数据</h2>
       <ul>
         <li>截图先在设备上通过 Apple Vision 执行文字识别。</li>
-        <li>为生成日程、提醒事项或笔记建议，必要的 OCR 文本、当前时间和时区会通过 HTTPS 发送至阿里云百炼 <code>qwen3.7-flash</code>。截图像素不会发送给该 AI 服务。</li>
+        <li>为生成日程、提醒事项或笔记建议，必要的 OCR 文本、当前时间、时区、地区设置和日历设定会通过 HTTPS 发送至阿里云百炼 <code>qwen3.7-flash</code>。截图像素不会发送给该 AI 服务。</li>
         <li>OCR 文本来自你主动选择捕获的屏幕，可能包含你提交的姓名、联系方式或其他个人信息；谛听不会在发送前对任意 OCR 文本作身份信息脱敏。</li>
         <li>日历和提醒事项仅在你确认后通过 Apple EventKit 写入；系统权限可随时在 iOS 设置中管理。</li>
         <li>谛听笔记、捕获历史、设置、识别次数余额及符合条件的压缩证据截图保存在设备本地。</li>
@@ -35,10 +36,11 @@
     </article>
     <article id="en" class="policy english" lang="en">
       <p>Diting processes a screenshot only when you initiate a capture. It does not monitor or automatically capture content from other apps in the background.</p>
+      <p>Before any OCR-derived text or related context is sent to a third-party AI service, Diting discloses the categories of data being sent, the recipient Alibaba Cloud Model Studio / Bailian, and the purpose of suggesting Calendar events, Reminders, or notes, and obtains your explicit consent. You may decline. If consent has not been granted or has been withdrawn, Diting does not send OCR-derived text or related context to that service. You can withdraw or re-enable AI-processing consent at any time under Settings → Privacy &amp; Data → AI Data Processing. Withdrawing consent does not delete locally stored data or change unrelated system permissions.</p>
       <h2>Data processing</h2>
       <ul>
         <li>Apple Vision performs text recognition on the device first.</li>
-        <li>To suggest Calendar events, Reminders, or notes, necessary OCR text, current time, and time-zone context are sent over HTTPS to Alibaba Cloud Model Studio <code>qwen3.7-flash</code>. Screenshot pixels are not sent to the AI service.</li>
+        <li>To suggest Calendar events, Reminders, or notes, necessary OCR text, current time, time-zone, locale, and calendar context are sent over HTTPS to Alibaba Cloud Model Studio <code>qwen3.7-flash</code>. Screenshot pixels are not sent to the AI service.</li>
         <li>OCR text comes from a screen you chose to capture and may contain names, contact details, or other personal information. Diting does not redact arbitrary OCR text for identity information before transmission.</li>
         <li>Calendar and Reminder records are written through Apple EventKit only after you confirm. You can manage these permissions in iOS Settings.</li>
         <li>Diting notes, capture history, settings, recognition-credit balance, and eligible compressed evidence screenshots are stored locally on the device.</li>
